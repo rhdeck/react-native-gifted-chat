@@ -203,7 +203,12 @@ export default class MessageContainer<
   }
 
   renderTypingIndicator = () => {
-    return <TypingIndicator isTyping={this.props.isTyping || false} />
+    return (
+      <TypingIndicator
+        typingColor={this.props.typingColor}
+        isTyping={this.props.isTyping || false}
+      />
+    )
   }
 
   renderFooter = () => {

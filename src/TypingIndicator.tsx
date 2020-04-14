@@ -5,6 +5,7 @@ import { useUpdateLayoutEffect } from './hooks/useUpdateLayoutEffect'
 
 interface Props {
   isTyping: boolean
+  typingColor: String
 }
 
 const TypingIndicator = (props: Props) => {
@@ -77,7 +78,7 @@ const TypingIndicator = (props: Props) => {
         style={{ marginLeft: 6, marginTop: 7.2 }}
         dotRadius={4}
         dotMargin={5.5}
-        dotColor={'rgba(0, 0, 0, 0.38)'}
+        dotColor={props.typingColor || 'rgba(0, 0, 0, 0.38)'}
       />
     </Animated.View>
   )
