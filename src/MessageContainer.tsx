@@ -205,7 +205,7 @@ export default class MessageContainer<
   renderTypingIndicator = () => {
     return (
       <TypingIndicator
-        typingColor={this.props.typingColor}
+        style={this.props.typingStyle}
         isTyping={this.props.isTyping || false}
       />
     )
