@@ -85,6 +85,7 @@
     "husky": "^4.0.2",
     "jest-expo": "^36.0.0",
     "json": "^9.0.6",
+    "node-watch": "^0.6.3",
     "prettier": "1.18.0",
     "react": "16.9.0",
     "react-dom": "16.9.0",
@@ -99,7 +100,7 @@
     "typescript": "3.4.5"
   },
   "dependencies": {
-    "@expo/react-native-action-sheet": "3.5.0",
+    "@expo/react-native-action-sheet": "3.6.0",
     "moment": "^2.19.0",
     "prop-types": "15.7.2",
     "react-native-communications": "2.2.1",
@@ -114,7 +115,7 @@
     "react": "*",
     "react-native": "*"
   },
-  "husky": {
+  "husky2": {
     "hooks": {
       "pre-commit": "yarn lint && yarn tsc"
     }
