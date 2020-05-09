@@ -86,6 +86,7 @@ export interface MessageContainerProps<TMessage extends IMessage> {
   scrollToBottomComponent?(): React.ReactNode
   onLoadEarlier?(): void
   onQuickReply?(replies: Reply[]): void
+  typingStyle?: any
 }
 
 interface State {
