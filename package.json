@@ -35,7 +35,7 @@
     "test": "TZ=Europe/Paris jest --no-watchman",
     "test:watch": "TZ=Europe/Paris jest --watch",
     "test:coverage": "TZ=Europe/Paris jest --coverage",
-    "prepublishOnlyNOT": "yarn lint && yarn build && yarn test && yarn config:npm",
+    "prepublishOnly": "yarn lint && yarn build && yarn test && yarn config:npm",
     "postpublish": "yarn config:dev",
     "watch": "./watch.js"
   },
@@ -116,7 +116,7 @@
     "react": "*",
     "react-native": "*"
   },
-  "husky2": {
+  "husky": {
     "hooks": {
       "pre-commit": "yarn lint && yarn tsc"
     }
