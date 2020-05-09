@@ -1,8 +1,8 @@
 {
   "name": "@raydeck/react-native-gifted-chat",
-  "version": "0.14.1",
+  "version": "0.14.2",
   "description": "The most complete chat UI for React Native",
-  "main": "lib/index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
@@ -36,7 +36,8 @@
     "test:watch": "TZ=Europe/Paris jest --watch",
     "test:coverage": "TZ=Europe/Paris jest --coverage",
     "prepublishOnlyNOT": "yarn lint && yarn build && yarn test && yarn config:npm",
-    "postpublish": "yarn config:dev"
+    "postpublish": "yarn config:dev",
+    "watch": "./watch.js"
   },
   "jest": {
     "preset": "react-native",
@@ -86,7 +87,8 @@
     "jest-expo": "^37.0.0",
     "json": "9.0.6",
     "prettier": "2.0.5",
-"node-watch": "^0.6.3","react": "16.9.0",
+    "node-watch": "^0.6.3",
+    "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
     "react-native-maps": "0.26.1",
