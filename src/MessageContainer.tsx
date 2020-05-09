@@ -22,7 +22,7 @@ import Message from './Message'
 import Color from './Color'
 import { User, IMessage, Reply } from './types'
 import { warning, StylePropType } from './utils'
-import TypingIndicator from './TypingIndicator'
+import TypingIndicator, { TypingIndicatorStyle } from './TypingIndicator'
 
 const styles = StyleSheet.create({
   container: {
@@ -88,7 +88,7 @@ export interface MessageContainerProps<TMessage extends IMessage> {
   onQuickReply?(replies: Reply[]): void
   infiniteScroll?: boolean
   isLoadingEarlier?: boolean
-  typingStyle?: any
+  typingStyle?: TypingIndicatorStyle
 }
 
 interface State {
