@@ -76,7 +76,8 @@ const TypingIndicator = (props: Props) => {
           marginBottom: marginScale,
           width: 45,
           borderRadius: 15,
-          backgroundColor: props.style.backgroundColor || '#f0f0f0',
+          backgroundColor:
+            (props.style && props.style.backgroundColor) || '#f0f0f0',
         },
       ]}
     >
@@ -84,7 +85,7 @@ const TypingIndicator = (props: Props) => {
         style={{ marginLeft: 6, marginTop: 7.2 }}
         dotRadius={4}
         dotMargin={5.5}
-        dotColor={props.style.color || 'rgba(0, 0, 0, 0.38)'}
+        dotColor={(props.style && props.style.color) || 'rgba(0, 0, 0, 0.38)'}
       />
     </Animated.View>
   )
