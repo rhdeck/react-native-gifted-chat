@@ -42,7 +42,7 @@
 <p align="center">
   <br/>
   <a href="https://www.lereacteur.io" target="_blank">
-    <img src="https://raw.githubusercontent.com/FaridSafi/react-native-gifted-chat/sponsor-lereacteur/media/logo_sponsor.png">
+    <img src="https://raw.githubusercontent.com/FaridSafi/react-native-gifted-chat/master/media/logo_sponsor.png">
   </a>
   <br>
   <p align="center">
@@ -302,7 +302,7 @@ interface QuickReplies {
 - **`user`** _(Object)_ - User sending the messages: `{ _id, name, avatar }`
 - **`onSend`** _(Function)_ - Callback when sending a message
 - **`alwaysShowSend`** _(Bool)_ - Always show send button in input text composer; default `false`, show only when text input is not empty
-- **`locale`** _(String)_ - Locale to localize the dates
+- **`locale`** _(String)_ - Locale to localize the dates. You need first to import the locale you need (ie. `require('dayjs/locale/de')` or `import 'dayjs/locale/fr'`)
 - **`timeFormat`** _(String)_ - Format to use for rendering times; default is `'LT'`
 - **`dateFormat`** _(String)_ - Format to use for rendering dates; default is `'ll'`
 - **`loadEarlier`** _(Bool)_ - Enables the "load earlier messages" button
@@ -376,6 +376,7 @@ interface QuickReplies {
 * **`quickReplyStyle`** _(StyleProp<ViewStyle>)_ - Custom quick reply view style
 * **`renderQuickReplySend`** _(Function)_ - Custom quick reply **send** view
 * **`shouldUpdateMessage`** _(Function)_ - Lets the message component know when to update outside of normal cases.
+* **`infiniteScroll`** _(Bool)_ - infinite scroll up when reach the top of messages container, automatically call onLoadEarlier function if exist (not yet supported for the web)
 
 ## Imperative methods
 
@@ -444,6 +445,8 @@ If you use React Navigation, additional handling may be required to account for 
 1. Install `yarn add -g expo-cli`
 2. `expo start -w`
 
+[Upgrade snack version](https://snackager.expo.io/bundle/react-native-gifted-chat@0.15.0?bypassCache=true)
+
 #### With create-react-app
 
 1. `yarn add -D react-app-rewired`
@@ -494,7 +497,7 @@ module.exports = function override(config, env) {
 
 ## Author
 
-Feel free to ask me questions on Twitter [@FaridSafi](https://www.twitter.com/FaridSafi)!
+Feel free to ask me questions on Twitter [@FaridSafi](https://www.twitter.com/FaridSafi)! or [@xcapetir](https://www.twitter.com/xcapetir)!
 
 ## Contributors
 
