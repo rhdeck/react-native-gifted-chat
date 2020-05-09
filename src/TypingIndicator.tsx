@@ -3,8 +3,8 @@ import { Animated } from 'react-native'
 import { TypingAnimation } from 'react-native-typing-animation'
 import { useUpdateLayoutEffect } from './hooks/useUpdateLayoutEffect'
 export interface TypingIndicatorStyle {
-  color: string
-  backgroundColor: string
+  color?: string
+  backgroundColor?: string
 }
 interface Props {
   isTyping: boolean
