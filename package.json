@@ -1,6 +1,6 @@
 {
   "name": "@raydeck/react-native-gifted-chat",
-  "version": "0.15.4",
+  "version": "0.16.1",
   "description": "The most complete chat UI for React Native",
   "main": "node_modules/expo/AppEntry.js",
   "types": "lib/index.d.ts",
@@ -82,7 +82,7 @@
     "expo-image-picker": "~8.1.0",
     "expo-location": "~8.1.0",
     "expo-permissions": "~8.1.0",
-    "flow-bin": "0.123.0",
+    "flow-bin": "0.125.0",
     "husky": "4.2.5",
     "jest-expo": "^37.0.0",
     "json": "9.0.6",
@@ -102,7 +102,7 @@
   },
   "dependencies": {
     "@expo/react-native-action-sheet": "^3.6.0",
-    "dayjs": "1.8.26",
+    "dayjs": "1.8.27",
     "prop-types": "^15.7.2",
     "react-native-communications": "^2.2.1",
     "react-native-iphone-x-helper": "^1.2.1",
