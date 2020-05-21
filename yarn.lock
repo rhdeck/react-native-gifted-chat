@@ -1242,6 +1242,13 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@raydeck/react-native-lightbox@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@raydeck/react-native-lightbox/-/react-native-lightbox-0.8.1.tgz#4048f057fbad6031d67c08cc2c2d7551e3305d7f"
+  integrity sha512-cKr5Wt8ClNNxlfYa/2HjaAp+5RgdIWtFFRQdQH9Px72KhUwaS+wc/S8tZxHLavtIu1ERJBlxYmtWGBoEb8e8JA==
+  dependencies:
+    prop-types "^15.7.2"
+
 "@react-native-community/cli-debugger-ui@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-3.0.0.tgz#d01d08d1e5ddc1633d82c7d84d48fff07bd39416"
@@ -6005,13 +6012,6 @@ react-native-iphone-x-helper@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
   integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
-
-react-native-lightbox@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/react-native-lightbox/-/react-native-lightbox-0.8.1.tgz#4e561ec46e61617a0f3f12c88ec2695360998878"
-  integrity sha512-TFZA6iKEEHpAUIXjMTRb6vx0/9rHgEKy3ZBiRAy295PwldYg5c8opwnbyURLIl522ykeqhVx9uGdXjSMIowLvA==
-  dependencies:
-    prop-types "^15.7.2"
 
 react-native-maps@0.26.1:
   version "0.26.1"
